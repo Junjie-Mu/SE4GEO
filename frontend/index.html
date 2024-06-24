@@ -1,229 +1,213 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>Massively by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+    <title>SE4G</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css"/>
+    </noscript>
+</head>
+<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+<!-- Wrapper -->
+<div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>This is<br />
-						Massively</h1>
-						<p>A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
-						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+    <!-- Intro -->
+    <div id="intro">
+        <h1>2024<br/>
+            SE4GEO Project</h1>
+        <p>An interactive application to support disaster management activities<br/>
+            during the prevention and preparedness phases</p>
+        <ul class="actions">
+            <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+        </ul>
+    </div>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Massively</a>
-					</header>
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="logo">SE4G</a>
+    </header>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">This is Massively</a></li>
-							<li><a href="generic.html">Generic Page</a></li>
-							<li><a href="elements.html">Elements Reference</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+    <!-- Nav -->
+    <nav id="nav">
+        <ul class="links">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li id="workflow" style="display: none"><a href="workflow.html">Generic Page</a></li>
+        </ul>
+        <ul class="icons">
+            <li><a href="https://github.com/Junjie-Mu/SE4GEO" class="icon brands fa-github"><span
+                    class="label">GitHub</span></a></li>
+        </ul>
+    </nav>
 
-				<!-- Main -->
-					<div id="main">
+    <!-- Main -->
+    <div id="main">
+        <!-- Featured Post -->
+        <section class="post">
+            <article class="post featured">
+                <header class="major">
+                    <span class="date">June, 2024</span>
+                    <h2><a href="#">Propose</a></h2>
+                    <p style="text-align: left">
+                        In addressing multi-hazard disasters and climate change factors, the adaptive risk management
+                        strategies need to be built under the visualized information. Therefore, the Web GIS platform
+                        serves
+                        as a vital tool for accessing geospatial data, maps, reports, and risk indicators related to the
+                        Italian Landslide Inventory, national hazard maps, and risk assessments.
+                    </p>
+                    <p style="text-align: left">
+                        The larger amount of analyzed information on controversial natural hazards connects to a
+                        strategic
+                        web service for the Italian Institute for Environmental Protection and Research (ISPRA) and more
+                        generally for a Public Administration (PA).
+                    </p>
+                    <p style="text-align: left">
+                        Given the importance of natural disaster education in both geography curriculum and education
+                        for
+                        sustainable development (ESD), leveraging Web GIS for dynamic monitoring, forecasting, and early
+                        warning of disasters has emerged as a viable approach.
+                    </p>
+                </header>
+            </article>
+        </section>
+        <section class="post">
+            <header class="major">
+                <h2>Run the application</h2>
+                <h3>Step 1</h3>
+            </header>
+            <p style="text-align: left">Everything will be quick, following the graphical interface and text!
+                </br>Let'sbegin now. Make sure your PostgreSQL is installed and running. Enter your database's
+                default
+                connection name, username, password, and host (usually 'localhost') below.</p>
+            <form method="post" id="envForm">
+                <div class="fields">
+                    <div class="field">
+                        <label for="dbName" style="font-size: 1rem">Database name</label>
+                        <input type="text" name="dbName" id="dbName" required/>
+                    </div>
+                    <div class="field" style="margin-top: 1rem">
+                        <label for="env_user" style="font-size: 1rem">User</label>
+                        <input type="text" name="env_user" id="env_user" required/>
+                    </div>
+                    <div class="field" style="margin-top: 1rem">
+                        <label for="env_password" style="font-size: 1rem">Password</label>
+                        <input type="text" name="env_password" id="env_password" required/>
+                    </div>
+                    <div class="field" style="margin-top: 1rem">
+                        <label for="env_host" style="font-size: 1rem">Host</label>
+                        <input type="text" name="env_host" id="env_host" required/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-12-small">
+                        <ul class="actions fit">
+                            <li><input style="font-size: 1rem" class="button fit" type="submit" value="SET"/></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-12-small">
+                        <ul class="actions stacked">
+                            <li><label>
+                                <input id="testDbConn" style="font-size: 1rem" class="button fit"
+                                       value="Test Database Connection"/>
+                            </label></li>
+                        </ul>
+                    </div>
+                </div>
+            </form>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date">April 25, 2017</span>
-									<h2><a href="#">And this is a<br />
-									massive headline</a></h2>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
-								</header>
-								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
-								</ul>
-							</article>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<span class="date">April 24, 2017</span>
-										<h2><a href="#">Sed magna<br />
-										ipsum faucibus</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 22, 2017</span>
-										<h2><a href="#">Primis eget<br />
-										imperdiet lorem</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Ante mattis<br />
-										interdum dolor</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-							</section>
+        </section>
 
-						<!-- Footer -->
-							<footer>
-								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
-									<a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a>
-								</div>
-							</footer>
+        <section class="post">
+            <header class="major">
+                <h2>Creat the user table</h2>
+                <h3>Step 2</br></h3>
+            </header>
+            <p style="text-align: center">Creat the user table to log in and register.</p>
+            <ul class="actions special">
+                <li id="creat-user"><a class="button primary large">Creat</a></li>
+            </ul>
+        </section>
+        <section class="post">
+            <header class="major">
+                <h2>Login / Register</h2>
+                <h3>Step 3</br></h3>
+            </header>
+            <p style="text-align: center">Log in to continue.</p>
+            <ul class="actions special">
+                <li id="open-btn"><a class="button primary large">Log in now</a></li>
+            </ul>
+        </section>
+    </div>
 
-					</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+    <!-- Footer -->
+    <footer id="footer" class="footer" style="display: none">
+        <section>
+            <span id="close-btn" class="close-btn">&times;</span>
+            <form method="post" id="loginForm">
+                <div class="fields">
+                    <div class="field">
+                        <label for="username">Name</label>
+                        <input type="text" name="username" id="username" required/>
+                    </div>
+                    <div class="field" style="margin-top: 1rem">
+                        <label for="password">Password</label>
+                        <input type="text" name="password" id="password" required/>
+                    </div>
+                </div>
+                <ul class="actions fit ">
+                    <li><input type="submit" value="Log in"/></li>
+                </ul>
+                <p style="margin: 0 0 0 0; font-size: 1rem">Do not have an account yet?</p>
+                <ul class="actions ">
+                    <li id="open-register"><a class="button ">Register now</a></li>
+                </ul>
+            </form>
+        </section>
+    </footer>
+    <footer class="footer" id="register" style="display: none">
+        <section>
+            <span id="close-register" class="close-btn">&times;</span>
+            <h2>Creat a new account</h2>
+            <form method="post" id="registerForm">
+                <div class="fields">
+                    <div class="field">
+                        <label for="username">Name</label>
+                        <input type="text" name="username" id="username_register" required/>
+                    </div>
+                    <div class="field" style="margin-top: 1rem">
+                        <label for="password">Password</label>
+                        <input type="text" name="password" id="password_register" required/>
+                    </div>
+                </div>
+                <ul class="actions fit ">
+                    <li><input type="submit" value="Register"/></li>
+                </ul>
+            </form>
+        </section>
+    </footer>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+    <!-- Copyright -->
+    <div id="copyright">
+        <ul>
+            <li>&copy; JUNJIE MU</li>
+            <li>Polimi-se4g-class-2024</li>
+        </ul>
+    </div>
 
-			</div>
+</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/logRegister.js"></script>
+</body>
 </html>

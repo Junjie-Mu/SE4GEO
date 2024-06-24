@@ -2240,7 +2240,7 @@ input, select, textarea {
 /* Form */
 
 	form {
-		margin: 0 0 2rem 0;
+		margin: 0 0 0 0;
 	}
 
 		form > :last-child {
@@ -2269,7 +2269,7 @@ input, select, textarea {
 				-webkit-flex-shrink: 0;
 				-ms-flex-shrink: 0;
 				flex-shrink: 0;
-				padding: 1.5rem 0 0 1.5rem;
+				padding: 0rem 0 0 1.5rem;
 				width: calc(100% - 1.5rem);
 			}
 
@@ -3947,7 +3947,8 @@ input, select, textarea {
 
 /* Footer */
 
-	#footer {
+	.footer {
+		display: none;
 		color: #717981;
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3963,229 +3964,229 @@ input, select, textarea {
 		z-index: 2;
 	}
 
-		#footer input, #footer select, #footer textarea {
+		.footer input, .footer select, .footer textarea {
 			color: #717981;
 		}
 
-		#footer a {
+		.footer a {
 			color: #717981;
 			border-bottom-color: rgba(113, 121, 129, 0.5);
 		}
 
-			#footer a:hover {
+			.footer a:hover {
 				border-bottom-color: transparent;
 				color: #18bfef !important;
 			}
 
-		#footer strong, #footer b {
+		.footer strong, .footer b {
 			color: #717981;
 		}
 
-		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
+		.footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6 {
 			color: #717981;
 		}
 
-		#footer blockquote {
+		.footer blockquote {
 			border-left-color: #e2e2e2;
 		}
 
-		#footer code {
+		.footer code {
 			background: rgba(220, 220, 220, 0.5);
 			border-color: #e2e2e2;
 		}
 
-		#footer hr {
+		.footer hr {
 			border-bottom-color: #e2e2e2;
 		}
 
-		#footer .box {
+		.footer .box {
 			border-color: #e2e2e2;
 		}
 
-		#footer input[type="submit"],
-		#footer input[type="reset"],
-		#footer input[type="button"],
-		#footer button,
-		#footer .button {
+		.footer input[type="submit"],
+		.footer input[type="reset"],
+		.footer input[type="button"],
+		.footer button,
+		.footer .button {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 2px #717981;
 			color: #717981 !important;
 		}
 
-			#footer input[type="submit"]:hover,
-			#footer input[type="reset"]:hover,
-			#footer input[type="button"]:hover,
-			#footer button:hover,
-			#footer .button:hover {
+			.footer input[type="submit"]:hover,
+			.footer input[type="reset"]:hover,
+			.footer input[type="button"]:hover,
+			.footer button:hover,
+			.footer .button:hover {
 				box-shadow: inset 0 0 0 2px #18bfef;
 				color: #18bfef !important;
 			}
 
-			#footer input[type="submit"].primary,
-			#footer input[type="reset"].primary,
-			#footer input[type="button"].primary,
-			#footer button.primary,
-			#footer .button.primary {
+			.footer input[type="submit"].primary,
+			.footer input[type="reset"].primary,
+			.footer input[type="button"].primary,
+			.footer button.primary,
+			.footer .button.primary {
 				background-color: #717981;
 				box-shadow: none;
 				color: #f5f5f5 !important;
 			}
 
-				#footer input[type="submit"].primary:hover,
-				#footer input[type="reset"].primary:hover,
-				#footer input[type="button"].primary:hover,
-				#footer button.primary:hover,
-				#footer .button.primary:hover {
+				.footer input[type="submit"].primary:hover,
+				.footer input[type="reset"].primary:hover,
+				.footer input[type="button"].primary:hover,
+				.footer button.primary:hover,
+				.footer .button.primary:hover {
 					background-color: #18bfef;
 				}
 
-		#footer label {
+		.footer label {
 			color: #717981;
 		}
 
-		#footer input[type="text"],
-		#footer input[type="password"],
-		#footer input[type="email"],
-		#footer select,
-		#footer textarea {
+		.footer input[type="text"],
+		.footer input[type="password"],
+		.footer input[type="email"],
+		.footer select,
+		.footer textarea {
 			border-color: #e2e2e2;
 		}
 
-			#footer input[type="text"]:focus,
-			#footer input[type="password"]:focus,
-			#footer input[type="email"]:focus,
-			#footer select:focus,
-			#footer textarea:focus {
+			.footer input[type="text"]:focus,
+			.footer input[type="password"]:focus,
+			.footer input[type="email"]:focus,
+			.footer select:focus,
+			.footer textarea:focus {
 				border-color: #18bfef;
 			}
 
-		#footer select {
+		.footer select {
 			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23e2e2e2' /%3E%3C/svg%3E");
 		}
 
-			#footer select option {
+			.footer select option {
 				background-color: #f5f5f5;
 				color: #717981;
 			}
 
-		#footer .select-wrapper:before {
+		.footer .select-wrapper:before {
 			color: #e2e2e2;
 		}
 
-		#footer input[type="checkbox"] + label,
-		#footer input[type="radio"] + label {
+		.footer input[type="checkbox"] + label,
+		.footer input[type="radio"] + label {
 			color: #717981;
 		}
 
-			#footer input[type="checkbox"] + label:before,
-			#footer input[type="radio"] + label:before {
+			.footer input[type="checkbox"] + label:before,
+			.footer input[type="radio"] + label:before {
 				border-color: #e2e2e2;
 			}
 
-		#footer input[type="checkbox"]:checked + label:before,
-		#footer input[type="radio"]:checked + label:before {
+		.footer input[type="checkbox"]:checked + label:before,
+		.footer input[type="radio"]:checked + label:before {
 			background-color: #717981;
 			border-color: #717981;
 			color: #f5f5f5;
 		}
 
-		#footer input[type="checkbox"]:focus + label:before,
-		#footer input[type="radio"]:focus + label:before {
+		.footer input[type="checkbox"]:focus + label:before,
+		.footer input[type="radio"]:focus + label:before {
 			border-color: #18bfef;
 		}
 
-		#footer ::-webkit-input-placeholder {
+		.footer ::-webkit-input-placeholder {
 			color: #b3b7bb !important;
 		}
 
-		#footer :-moz-placeholder {
+		.footer :-moz-placeholder {
 			color: #b3b7bb !important;
 		}
 
-		#footer ::-moz-placeholder {
+		.footer ::-moz-placeholder {
 			color: #b3b7bb !important;
 		}
 
-		#footer :-ms-input-placeholder {
+		.footer :-ms-input-placeholder {
 			color: #b3b7bb !important;
 		}
 
-		#footer .formerize-placeholder {
+		.footer .formerize-placeholder {
 			color: #b3b7bb !important;
 		}
 
-		#footer ul.divided li {
+		.footer ul.divided li {
 			border-top-color: #e2e2e2;
 		}
 
-		#footer ul.icons li a.icon:hover:before {
+		.footer ul.icons li a.icon:hover:before {
 			color: #18bfef;
 		}
 
-		#footer ul.icons.alt li .icon:before {
+		.footer ul.icons.alt li .icon:before {
 			box-shadow: inset 0 0 0 2px #e2e2e2;
 		}
 
-		#footer ul.icons.alt li a.icon:hover:before {
+		.footer ul.icons.alt li a.icon:hover:before {
 			box-shadow: inset 0 0 0 2px #18bfef;
 		}
 
-		#footer header.major .date:before, #footer header.major .date:after {
+		.footer header.major .date:before, .footer header.major .date:after {
 			border-top-color: #e2e2e2;
 		}
 
-		#footer table tbody tr {
+		.footer table tbody tr {
 			border-color: #e2e2e2;
 		}
 
-			#footer table tbody tr:nth-child(2n + 1) {
+			.footer table tbody tr:nth-child(2n + 1) {
 				background-color: rgba(220, 220, 220, 0.5);
 			}
 
-		#footer table th {
+		.footer table th {
 			color: #717981;
 		}
 
-		#footer table thead {
+		.footer table thead {
 			border-bottom-color: #e2e2e2;
 		}
 
-		#footer table tfoot {
+		.footer table tfoot {
 			border-top-color: #e2e2e2;
 		}
 
-		#footer table.alt tbody tr td {
+		.footer table.alt tbody tr td {
 			border-color: #e2e2e2;
 		}
 
-		#footer .pagination a, #footer .pagination span {
+		.footer .pagination a, .footer .pagination span {
 			border-color: #e2e2e2;
 		}
 
-		#footer .pagination a {
+		.footer .pagination a {
 			color: #717981 !important;
 		}
 
-			#footer .pagination a:hover {
+			.footer .pagination a:hover {
 				color: #18bfef !important;
 				border-color: #18bfef;
 				z-index: 1;
 			}
 
-				#footer .pagination a:hover + a,
-				#footer .pagination a:hover + span {
+				.footer .pagination a:hover + a,
+				.footer .pagination a:hover + span {
 					border-left-color: #18bfef;
 				}
 
-			#footer .pagination a.active {
+			.footer .pagination a.active {
 				background-color: #e2e2e2;
 			}
 
-		#footer .pagination span {
+		.footer .pagination span {
 			color: #e2e2e2;
 		}
 
-		#footer > section {
+		.footer > section {
 			-moz-flex-basis: 50%;
 			-webkit-flex-basis: 50%;
 			-ms-flex-basis: 50%;
@@ -4202,11 +4203,11 @@ input, select, textarea {
 			border-left: solid 2px #e2e2e2;
 		}
 
-			#footer > section:first-child {
+			.footer > section:first-child {
 				border-left: 0;
 			}
 
-			#footer > section.split {
+			.footer > section.split {
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
@@ -4218,21 +4219,21 @@ input, select, textarea {
 				padding: 0;
 			}
 
-				#footer > section.split > section {
+				.footer > section.split > section {
 					padding: 3rem 4rem 1rem 4rem ;
 					border-top: solid 2px #e2e2e2;
 				}
 
-					#footer > section.split > section:first-child {
+					.footer > section.split > section:first-child {
 						padding: 5rem 4rem 1rem 4rem ;
 						border-top: 0;
 					}
 
-					#footer > section.split > section:last-child {
+					.footer > section.split > section:last-child {
 						padding: 3rem 4rem 3rem 4rem ;
 					}
 
-				#footer > section.split.contact > section {
+				.footer > section.split.contact > section {
 					display: -moz-flex;
 					display: -webkit-flex;
 					display: -ms-flex;
@@ -4244,11 +4245,11 @@ input, select, textarea {
 					padding: 3.15rem 4rem;
 				}
 
-					#footer > section.split.contact > section > * {
+					.footer > section.split.contact > section > * {
 						margin-bottom: 0;
 					}
 
-					#footer > section.split.contact > section > :first-child {
+					.footer > section.split.contact > section > :first-child {
 						-moz-flex-shrink: 0;
 						-webkit-flex-shrink: 0;
 						-ms-flex-shrink: 0;
@@ -4260,7 +4261,7 @@ input, select, textarea {
 						width: 6rem;
 					}
 
-					#footer > section.split.contact > section > :last-child {
+					.footer > section.split.contact > section > :last-child {
 						-moz-flex-shrink: 1;
 						-webkit-flex-shrink: 1;
 						-ms-flex-shrink: 1;
@@ -4271,72 +4272,87 @@ input, select, textarea {
 						flex-grow: 1;
 					}
 
-					#footer > section.split.contact > section:first-child {
+					.footer > section.split.contact > section:first-child {
 						padding: 4rem 4rem 3rem 4rem;
 					}
 
-					#footer > section.split.contact > section:last-child {
+					.footer > section.split.contact > section:last-child {
 						padding: 3rem 4rem 4rem 4rem;
 					}
 
-					#footer > section.split.contact > section.alt {
+					.footer > section.split.contact > section.alt {
 						-moz-align-items: -moz-flex-start;
 						-webkit-align-items: -webkit-flex-start;
 						-ms-align-items: -ms-flex-start;
 						align-items: flex-start;
 					}
 
-						#footer > section.split.contact > section.alt > :last-child {
+						.footer > section.split.contact > section.alt > :last-child {
 							margin-top: -0.325rem;
 						}
 
-		#footer form label,
-		#footer h3,
-		#footer p {
+		.footer form label,
+		.footer h3,
+		.footer p {
 			font-size: 0.8rem;
+		}
+
+		.footer .close-btn {
+			margin-top: -3rem;
+			color: #aaa;
+			float: right;
+			font-size: 36px;
+			font-weight: bold;
+		}
+
+		.footer .close-btn:hover,
+		.footer .close-btn:focus {
+			color: black;
+			text-decoration: none;
+			cursor: pointer;
 		}
 
 		@media screen and (max-width: 980px) {
 
-			#footer {
+			.footer {
 				display: block;
 			}
 
-				#footer > section {
+				.footer > section {
 					border-top: solid 2px #e2e2e2;
 				}
 
-					#footer > section:first-child {
+					.footer > section:first-child {
 						border-top: 0;
 					}
 
-					#footer > section.split > section {
+					.footer > section.split > section {
 						padding: 4rem 4rem 2rem 4rem ;
 					}
 
-						#footer > section.split > section:first-child {
+						.footer > section.split > section:first-child {
 							padding: 4rem 4rem 2rem 4rem ;
 						}
 
-						#footer > section.split > section:last-child {
+						.footer > section.split > section:last-child {
 							padding: 4rem 4rem 2rem 4rem ;
 						}
 
-					#footer > section.split.contact > section {
+					.footer > section.split.contact > section {
 						padding: 4rem;
 					}
 
-						#footer > section.split.contact > section:first-child {
+						.footer > section.split.contact > section:first-child {
 							padding: 4rem;
 						}
 
-						#footer > section.split.contact > section:last-child {
+						.footer > section.split.contact > section:last-child {
 							padding: 4rem;
 						}
 
-				#footer form label,
-				#footer h3,
-				#footer p {
+				.footer form label,
+				.footer h3,
+				.footer p {
 					font-size: 0.9rem;
 				}
 
@@ -4344,31 +4360,31 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			#footer > section {
+			.footer > section {
 				padding: 2rem 2rem 0.1rem 2rem ;
 			}
 
-				#footer > section.split > section {
+				.footer > section.split > section {
 					padding: 2rem 2rem 0.1rem 2rem ;
 				}
 
-					#footer > section.split > section:first-child {
+					.footer > section.split > section:first-child {
 						padding: 2rem 2rem 0.1rem 2rem ;
 					}
 
-					#footer > section.split > section:last-child {
+					.footer > section.split > section:last-child {
 						padding: 2rem 2rem 0.1rem 2rem ;
 					}
 
-				#footer > section.split.contact > section {
+				.footer > section.split.contact > section {
 					padding: 2rem;
 				}
 
-					#footer > section.split.contact > section:first-child {
+					.footer > section.split.contact > section:first-child {
 						padding: 2rem;
 					}
 
-					#footer > section.split.contact > section:last-child {
+					.footer > section.split.contact > section:last-child {
 						padding: 2rem;
 					}
 
@@ -4376,7 +4392,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-			#footer {
+			.footer {
 				width: 100%;
 			}
 
