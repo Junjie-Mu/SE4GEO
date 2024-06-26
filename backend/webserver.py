@@ -18,7 +18,7 @@ app = Flask(__name__, static_folder='../frontend', static_url_path='')
 
 
 load_dotenv('database/.env')
-db_name = os.getenv('DB_NAME')
+db_name = os.getenv('DB_DEFAULT_NAME')
 user = os.getenv('USER')
 password = os.getenv('PASSWORD')
 host = os.getenv('HOST')
@@ -56,7 +56,7 @@ def update_env():
         return jsonify({'success': False, 'message': 'All fields are required.'}), 400
 
     try:
-        set_key('./database/.env', 'DB_NAME', dbName)
+        set_key('./database/.env', 'DB_DEFAULT_NAME', dbName)
         set_key('./database/.env', 'USER', env_user)
         set_key('./database/.env', 'PASSWORD', env_password)
         set_key('./database/.env', 'HOST', env_host)
