@@ -13,4 +13,5 @@ After the run is complete, use the browser to enter http://localhost:5000
 
 Follow the instructions on the webpage until you get to the **FINAL** step!
 
-### ⚠ under construction...
+❗ For detailed instructions, please refer to the [**Software Release Document
+(SRD)**](https://github.com/Junjie-Mu/SE4GEO/blob/main/documents/3.Software%20Release%20Document(SRD).pdf)!
